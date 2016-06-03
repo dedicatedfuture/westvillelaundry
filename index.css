@@ -1,0 +1,173 @@
+body{
+    margin: 0 30px;
+    background-color: #f4f4f4;
+}
+.container{
+    background-color: white;
+}
+.header{
+    height: 110px;
+    background-color: white;
+}
+.logo{
+    width: 400px;
+    margin-top: 27px;
+}
+.call{
+    position: absolute;
+    right: 70px;
+    top: 40px;
+    text-align: right;
+    font-size: 1.7em;
+    font-style: italic;
+}
+#home{
+    width: 100%;
+    background-color: white;
+}
+.mainpic{
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0B85C2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0c4265;
+}
+
+#aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+.aboutboxes{
+    width: 20%;
+    margin: 50px 10px;
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+    
+}
+.aboutboxes:hover{
+    
+         -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    
+}
+.aboutboxes h4{
+    font-size: 1.2em;
+
+    color: #7cb920;
+}
+.cost {
+    text-align: center;
+    font-size: 2em;
+}
+.map{
+    float: left;
+}
+.price{
+    max-width: 550px;
+}
+hr{
+    margin: 30px 0px;
+}
+#location{
+    background-color: white;
+}
+#hours{
+    clear: both;
+    display: flex;
+    background-color: white;
+}
+.testytitle{
+    margin-left: 150px;
+}
+.testimonials{
+    
+    flex-basis: 70%;
+}
+.testy{
+    font-size: 1.7em;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.fa-star{
+    color: orange;
+}
+.signature{
+    text-align: right;
+    font-size: .8em;
+    font-style: italic;
+}
+.hours{
+    flex-basis:25%;
+    margin: 30px;
+    font-size: 1.5em;
+}
+.hourstable{
+    border: 3px solid black;
+}
+.hourstable td{
+    padding: 6px;
+}
+.rowA{
+    background-color: #f4f4f4;
+}
+.rowB{
+
+}
+.caller{
+    background-color: #7cb920;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+footer{
+    background-color: #616161;
+    height: 200px;
+    color: white;
+    bottom: 0;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px black;
+}
+footer h3{
+    margin-top: 0px;
+    padding: 50px;
+}
+footer p{
+    padding: 25px 50px;
+}
+footer a{
+    text-decoration: none;
+    color: lightblue;
+}
