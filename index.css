@@ -1,3 +1,143 @@
+#aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+.aboutboxes{
+    width: 20%;
+    margin: 50px auto;
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+    
+}
+
+.aboutboxes h4{
+    font-size: 1.2em;
+    color: #7cb920;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0B85C2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0c4265;
+}
+.logo{
+    width:90%;
+}
+.call{
+    display: block;
+}
+.mainpic{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.map{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.price{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#hours{
+    clear: both;
+    
+    background-color: white;
+}
+.testytitle{
+    margin-left: 150px;
+}
+.testy{
+    font-size: 1.7em;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.fa-star{
+    color: orange;
+}
+.signature{
+    text-align: right;
+    font-size: .8em;
+    font-style: italic;
+}
+.hours{
+    clear: both;
+    margin: 30px;
+    font-size: 1.5em;
+}
+.hourstable{
+    border: 3px solid black;
+}
+.hourstable td{
+    padding: 6px;
+}
+.rowA{
+    background-color: #f4f4f4;
+}
+
+
+
+.caller{
+    background-color: #7cb920;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+footer{
+    background-color: #616161;
+    height: 150px;
+    color: white;
+    bottom: 0;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px black;
+}
+footer h3{
+    margin-top: 0px;
+    padding: 10px;
+}
+footer p{
+    padding: 5px 10px;
+}
+footer a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+
+/*desktop and tablet*/
+@media all and (min-width: 416px){
+
 body{
     margin: 0 30px;
     background-color: #f4f4f4;
@@ -30,64 +170,17 @@ body{
     margin: 0 auto;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #0B85C2;
-}
 
-li {
-    float: left;
-}
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-li a:hover {
-    background-color: #0c4265;
-}
-
-#aboutus{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: white;
-}
-.aboutboxes{
-    width: 20%;
-    margin: 50px 10px;
-    height: 300px;
-    width: 200px;
-    padding: 30px;
-    text-align: center;
-    background-color: #f4f4f4;
-    
-}
-.aboutboxes:hover{
-    
-         -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-    
-}
-.aboutboxes h4{
-    font-size: 1.2em;
-
-    color: #7cb920;
-}
 .cost {
     text-align: center;
     font-size: 2em;
 }
 .map{
     float: left;
+    width: 600px;
+    height: 450px;
 }
 .price{
     max-width: 550px;
@@ -125,6 +218,7 @@ hr{
     font-style: italic;
 }
 .hours{
+    
     flex-basis:25%;
     margin: 30px;
     font-size: 1.5em;
@@ -142,15 +236,9 @@ hr{
 
 }
 .caller{
-    background-color: #7cb920;
-    margin: 20px 0px 0px 0px;
-    padding: 20px 0px;
-    width: 100%;
-    text-align: center;
+    /*uses styling from outside of media query*/
     font-size: 2em;
-    font-style: italic;
-    color: white;
-    text-shadow: 2px 2px 5px black;
+
 }
 footer{
     background-color: #616161;
@@ -170,4 +258,5 @@ footer p{
 footer a{
     text-decoration: none;
     color: lightblue;
+}
 }
